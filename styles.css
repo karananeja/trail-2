@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+:root {
+    --color: rgb(236, 173, 56);
+}
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(236, 231, 223); */
+}
+
+header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.photo {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    padding: 25px;
+}
+
+.title {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.details {
+    display: inline-block;
+    padding-left: calc(100vw - 55vw);
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+.line-1 {
+    color: var(--color);
+    border: 2px solid;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+.text-components {
+    font-style: italic;
+    color: var(--color);
+    font-weight: bold;
+}
+
+.container-1 {
+    display: inline-flex;
+}
+
+.a {
+    width: 60vw;
+    padding-right: 25px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.container-2 {
+    display: inline-flex;
+}
+
+.b {
+    width: 20vw;
+}
+
+.duration-1 {
+    font-style: italic;
+}
+
+.container-3 {
+    display: inline-flex;
+}
+
+.c {
+    width: 13vw;
+}
+
+td {
+    padding-right: 20vw;
+}
+
+.container-4 {
+    display: inline-flex;
+}
+
+.d {
+    width: 21vw;
+}
+
+.container-5 {
+    display: inline-flex;
+}
+
+.e {
+    width: 20vw;
+}
+
+.sign {
+    text-align: right;
+    padding-right: 100px;
+    opacity: 0.5;
+}
+
+.name {
+    text-align: right;
+    padding-right: 37px;
+}
